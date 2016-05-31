@@ -36,6 +36,9 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    app_store_reviews (0.1.0)
+      httparty (~> 0.13)
+      nokogiri (~> 1.6)
     arel (6.0.3)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
@@ -168,12 +171,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  app_store_reviews
   binding_of_caller
   byebug
   coffee-rails (~> 4.1.0)
   itunes-search-api
   jbuilder (~> 2.0)
   jquery-rails
+  nokogiri
   pg (~> 0.15)
   pry-rails
   rails (= 4.2.6)
